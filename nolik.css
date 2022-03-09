@@ -1,0 +1,27 @@
+body{
+    background-color: brown;
+}
+.ai{
+    background-image: url('noliki.png');
+}
+.player{
+    background-image: url('player.png');
+}
+.actions{
+    text-align: center;
+}
+.space{
+    margin: 50px;
+    width: 162px;
+}
+.cell{
+    cursor: pointer;
+    background-color: blueviolet;
+    border: 2px;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.cell :hover{
+    border-color:red ;
+}
